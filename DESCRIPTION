@@ -1,0 +1,28 @@
+Package: parseIbed
+Title: Parse the output files from Chicago
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chun",
+           family = "Su",
+           role = c("aut", "cre"),
+           email = "sckinta@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Parse the output files from Chicago.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    dplyr,
+    tidyr,
+    readr,
+    glue,
+    DFbedtools (>= 0.0.0.9000),
+    vroom,
+    rlang
+Remotes: 
+    sckinta/myRpackages
+Depends: 
+    R (>= 2.10)
